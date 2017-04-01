@@ -1,0 +1,555 @@
+
+An attempt to present to students a succinct history of the course of
+French literature compiled from an examination of that literature
+itself, and not merely from previous accounts of it is, I believe, a new
+one in English. There will be observed in the parts of this Short
+History a considerable difference of method; and as such a difference is
+not usual in works of the kind, it may be well to state the reasons
+which have induced me to adopt it. Early French literature is to a great
+extent anonymous. Moreover, even where it is not, the authors were
+usually more influenced by certain prevalent styles or forms than by
+anything else. Into these forms they threw without considerations of
+congruity whatever they had to say. Nothing, for instance, can be less
+suitable for historical or scientific disquisition than the octosyllabic
+metre of a satiric poem. But Jean de Meung and one at least of the
+authors of _Renart le Contrefait_[1] do not think of composing prose
+diatribes. At one moment and place the form of the Chanson de Geste is
+all-absorbing, at another the form of the Roman d'Aventures, at another
+the form of the Fabliau. In Book I. I shall therefore proceed by these
+forms, giving an account of each separately.
+
+After Villon the case changes. Instead of classes of chroniclers,
+trouvères, jongleurs, we get individual authors of eminence and
+individuality striking out their own way and saying their own say in
+the manner not that is fashionable but that seems best to them. During
+this time, therefore, and especially during that brilliant age of French
+literature, the sixteenth century, I shall proceed by authors, taking
+the most remarkable individually, and grouping their followers around
+them.
+
+From the time of Malherbe the system of schools begins, divided
+according to subjects. The poet, the dramatist, the historian, have
+their predecessors, and either intentionally copy them or intentionally
+innovate upon them. Malherbe and Delille, Corneille and Lemercier,
+Sarrasin and Rulhière, whatever the difference of merit, stand to one
+another in a definite relation, and the later writers represent more or
+less the accepted traditions each of his school. In this part,
+therefore, I shall proceed by subjects, taking historians, poets,
+dramatists, etc., together. One difference will be noticed between the
+third and fourth Books, dealing respectively with the seventeenth and
+eighteenth centuries. It has seemed unnecessary to allot a special
+chapter to theological and ecclesiastical writing in the latter, or to
+scientific writing in the former.
+
+Almost all writers who have attempted literary histories in a small
+compass have recognised the difficulty, or rather impossibility, of
+treating contemporary or recent work on the same scale as older authors.
+In treating, therefore, of literature subsequent to the appearance of
+the Romantic movement, I shall content myself with giving a rapid sketch
+of the principal literary developments and their exponents.
+
+There are doubtless objections to this quadripartite arrangement; but it
+appears to me better suited for the purpose of laying the foundations of
+an acquaintance with French literature than a more uniform plan.
+
+The space at my disposal does not admit of combining full information as
+to the literature with elaborate literary comment upon its
+characteristics, and there can be no doubt that in such a book as this,
+destined for purposes of education chiefly, the latter must be
+sacrificed to the former. As an instance of the sacrifice I may refer
+to Bk. I. Ch. II. There are some forty or fifty Chansons de Gestes in
+print, all of which save two or three I have read, and almost every one
+of which presents points on which it would be most interesting to me to
+comment. But to do this in the limits would be impossible. Nor is it
+easy to enter upon disputed literary questions, however tempting they
+may be. On such points as the relations of Northern to Provencal poetry,
+the origin of the Chansons and the Arthurian romances, the successive
+versions of Froissart, the authenticity of the last book of Rabelais, it
+is only possible here to indicate the most probable conclusions.
+Generally speaking, the scale of treatment will be found to be adjusted
+to the system of division already stated. In the middle ages, where the
+importance of the general form surpasses that of the individual
+practitioners, comparatively small space is given to these individuals,
+and little attempt is made to follow up the scanty and often conjectural
+particulars of their lives. In the later books I have endeavoured
+(departing in this respect from the system of my two former sketches of
+the subject, the article on 'French Literature' in the ninth edition of
+the _Encyclopaedia Britannica_ and the _Primer_ which has preceded this
+work in the Clarendon Press Series) to deal more fully with the greater
+names whose work is most instructive, and as to whom most curiosity is
+likely to be felt.
+
+_Preface to the Second Edition._--In the second edition the text has
+been very carefully revised. All corrections of fact indicated by
+critics and private correspondents, both English and French (among whom
+I owe especial thanks to M. A. Beljame), have, after verification, been
+made. A considerable number of additional dates of the publication of
+important books have been inserted in the text, and the Index has
+undergone a strict examination, resulting in the correction of some
+faults which were due not to the original compiler but to myself. On the
+suggestion of several competent authorities a Conclusion, following the
+lines of the Interchapters, is now added. If less deference is shown to
+some strictures which have been passed on the plan of the work and the
+author's literary views, it is due merely to the conviction that a
+writer must write his own book in his own way if it is to be of any good
+to anybody. But in a few places modifications of phrases which seemed to
+have been misconceived or to be capable of misconception have been made.
+I have only to add sincere thanks to my critics for the very general
+and, I fear, scarcely deserved approval with which this Short History of
+a long subject has been received, and to my readers for the promptness
+with which a second edition of it has been demanded.
+
+Some additions have been made to the latter part of the book, but not
+very many: for the attempt to 'write up' such a history to date every
+few years can only lead to confusion and disproportion. I have had,
+during the decade which has passed since the book was first planned,
+rather unusual opportunities of acquainting myself with all new French
+books of any importance, but a history is not a periodical, and I have
+thought it best to give rather grudging than free admittance to
+new-comers. On the other hand, I have endeavoured, as far as possible,
+to obliterate chronological references which the effluxion of time has
+rendered, or may render, misleading. The notes to which it seemed most
+important to attract attention, as modifying or enlarging some statement
+in the text, are specially headed 'Notes to Third Edition': but they
+represent only a small part of the labour which has been expended on the
+text. I have also again overhauled and very considerably enlarged the
+index; while the amplification of the 'Contents' by subjoining to each
+chapter-heading a list of the side-headings of the paragraphs it
+contains, will, I think, be found an advantage. And so I commend the
+book once more to readers and to students
+
+Meanwhile, however, Latin was doing more than merely furnishing the
+materials of the new language. The literary faculty of the Gauls was
+early noticed, and before their subjection had long been completed they
+were adepts at using the language of the conquerors. It does not fall
+within our plan to notice in detail the Latin literature of Gaul and
+early France, but the later varieties of that literature deserve some
+little attention, because of the influence which they undoubtedly
+exercised on the literary forms of the new language. In early French
+there is little trace of the influence of the Latin forms which we call
+classical. It was the forms of the language which has been said to have
+'dived under ground with Naevius and come up again with Prudentius' that
+really influenced the youthful tongue. Ecclesiastical Latin, and
+especially the wonderful melody of the early Latin hymn-writers, had by
+far the greatest effect upon it. Ingenious and not wholly groundless
+efforts have been made to trace the principal forms of early French
+writing to the services and service-books of the church, the chronicle
+to the sacred histories, the lyric to the psalm and the hymn, the
+mystery to the elaborate and dramatic ritual of the church. The _Chanson
+de Geste_, indeed, displays in its matter and style many traces of
+Germanic origin, but the metre with its regular iambic cadence and its
+rigid caesura testifies to Latin influence. The service thus performed
+to the literature was not unlike the service performed to the language.
+In the one case the scaffolding, or rather the skeleton, was furnished
+in the shape of grammar; in the other a similar skeleton, in the shape
+of prosody, was supplied. Important additions were indeed made by the
+fresh elements introduced. Rhyme Latin had itself acquired. But of the
+musical refrains which are among the most charming features of early
+French lyric poetry we find no vestige in the older tongue.
+
+The history of the French language, as far as concerns literature, from
+the seventh to the eleventh century, can be rapidly given. The earliest
+mention of the Romance tongue as distinguished from Latin and from
+German dialect refers to 659, and occurs in the life of St. Mummolinus
+or Momolenus, bishop of Noyon, who was chosen for that office because of
+his knowledge of the two languages, Teutonic and Romanic[5]. We may
+therefore assume that Mummolinus preached in the _lingua Romana_. To the
+same century is referred the song of St. Faron, bishop of Meaux[6], but
+this only exists in Latin, and a Romance original is inferred rather
+than proved. In the eighth century the Romance eloquence of St. Adalbert
+is commended[7], and to the same period are referred the glossaries of
+Reichenau and Cassel, lists containing in the first case Latin and
+Romance equivalents, in the second Teutonic and Romance[8]. By the
+beginning of the ninth century it was compulsory for bishops to preach
+in Romance, and to translate such Latin homilies as they read[9]; and to
+this same era has been referred a fragmentary commentary on the Book of
+Jonah[10], included in the latest collection of 'Monuments[11].' In 842
+we have the Strasburg Oaths, celebrated alike in French history and
+French literature. The text of the MS. of Nithard which contains them is
+of the tenth century.
+
+We now come to documents less shapeless. The tenth century itself gives
+us the song of St. Eulalie, a poem on the Passion, a life of St. Leger,
+and perhaps a poem on Boethius. These four documents are of the highest
+interest. Not merely has the language assumed a tolerably regular form,
+but its great division into Langue d'Oc and Langue d'Oil is already
+made, and grammar, prosody, and other necessities or ornaments of
+bookwriting, are present. The following extracts will illustrate this
+part of French literature. The Romance oaths and the 'St. Eulalie' are
+given in full, the 'Passion' and the 'St. Leger' in extract; it will be
+observed that the interval between the first and the others is of very
+considerable width. This interval probably represents a century of
+active change, and of this unfortunately we have no monuments to mark
+the progress accurately.
+
+Before however we attempt a systematic account of French literature as
+it has been actually handed down to us, it is necessary to deal very
+briefly with two questions, one of which concerns the antecedence of
+possible ballad literature to the existing Chansons de Gestes, the other
+the machinery of diffusion to which this and all the early historical
+developments of the written French language owed much.
+
+It has been held by many scholars, whose opinions deserve respect, that
+an extensive literature of _Cantilenae_[12], or short historical
+ballads, preceded the lengthy epics which we now possess, and was to a
+certain extent worked up in these compositions. It is hardly necessary
+to say that this depends in part upon a much larger question--the
+question, namely, of the general origins of epic poetry. There are
+indeed certain references[13] to these Cantilenae upon which the
+theories alluded to have been built. But the Cantilenae themselves have,
+as one of the best of French literary historians, the late M. Paulin
+Paris, remarks of another debated product, the Provencal epic, only one
+defect, 'le défaut d'être perdu,' and investigation on the subject is
+therefore more curious than profitable. No remnant of them survives save
+the already-mentioned Latin prose canticle of St. Faron, in which
+vestiges of a French and versified original are thought to be visible,
+and the ballad of Saucourt, a rough song in a Teutonic dialect[14]. In
+default of direct evidence an argument has been sought to be founded on
+the constant transitions, repetitions, and other peculiarities of the
+Chansons, some of which (and especially _Roland_, the most famous of
+all) present traces of repeated handlings of the same subject, such as
+might be expected in work which was merely that of a _diaskeuast_[15] of
+existing lays.
+
+It is however probable that the explanation of this phenomenon need not
+be sought further than in the circumstances of the composition and
+publication of these poems, circumstances which also had a very
+considerable influence on the whole course and character of early French
+literature. We know nothing of the rise or origin of the two classes of
+_Trouveurs_ and _Jongleurs_. The former (which it is needless to say is
+the same word as _Troubadour_, and _Trobador_, and _Trovatore_) is the
+term for the composing class, the latter for the performing one. But the
+separation was not sharp or absolute, and there are abundant instances
+of Trouvères[16] who performed their own works, and of Jongleurs who
+aspired to the glories if not of original authorship, at any rate of
+alteration and revision of the legends they sang or recited. The natural
+consequence of this irregular form of publication was a good deal of
+repetition in the works published. Different versions of the legends
+easily enough got mixed together by the copyist, who it must be
+remembered was frequently a mere mechanical reproducer, and neither
+Trouvère nor Jongleur; nor should it be forgotten that, so long as
+recitation was general, repetitions of this kind were almost inevitable
+as a rest to the reciter's memory, and were scarcely likely to attract
+unfavourable remark or criticism from the audience. We may therefore
+conclude, without entering further into the details of a debate
+unsuitable to the plan of this history, that, while but scanty evidence
+has been shown of the existence previous to the _Chansons de Gestes_ of
+a ballad literature identical in subject with those compositions, at the
+same time the existence of such a literature is neither impossible nor
+improbable. It is otherwise with the hypothesis of the existence of
+prose chronicles, from which the early epics (and _Roland_ in
+particular) are also held to have derived their origin. But this subject
+will be better handled when we come to treat of the beginnings of French
+prose. For the present it is sufficient to say that, with the exception
+of the scattered fragments already commented upon, there is no
+department of French literature before the eleventh century and the
+_Chansons de Gestes_, which possesses historical existence proved by
+actual monuments, and thus demands or deserves treatment here.
+
+
+The origin and sources of the _Chansons de Gestes_ have been made a
+matter of much controversy. We have already seen how, from the testimony
+of historians and the existence of a few fragments, it appears that rude
+lays or ballads in the different vernacular tongues of the country were
+composed and sung if not written down at very early dates. According to
+one theory, we are to look for the origin of the long and regular epics
+of the eleventh and subsequent centuries in these rude compositions,
+first produced independently, then strung together, and lastly subjected
+to some process of editing and union. It has been sought to find proof
+of this in the frequent repetitions which take place in the Chansons,
+and which sometimes amount to the telling of the same incident over and
+over again in slightly varying words. Others have seen in this
+peculiarity only a result of improvisation in the first place, and
+unskilful or at least uncritical copying in the second. This, however,
+is a question rather interesting than important. What is certain is that
+no literary source of the Chansons is now actually in existence, and
+that we have no authentic information as to any such originals. At a
+certain period--approximately given above--the fashion of narrative
+poems on the great scale seems to have arisen in France. It spread
+rapidly, and was eagerly copied by other nations.
+
+The period of composition of these poems extended, speaking roughly,
+over three centuries. In the eleventh they began, but the beginnings are
+represented only by _Roland_, the _Voyage de Charlemagne_, and perhaps
+_Le Roi Louis_. Most and nearly all the best date from the twelfth. The
+thirteenth century also produces them in great numbers, but by this time
+a sensible change has come over their manner, and after the beginning of
+the fourteenth only a few pieces deserving the title are written. They
+then undergo transformation rather than neglect, and we shall meet them
+at a later period in other forms. Before dealing with other general
+characteristics of the early epics of France it will be well to give
+some notion of them by actual selection and narrative. For this purpose
+we shall take two Chansons typical of two out of the three stages
+through which they passed. _Roland_ will serve as a sample of the
+earliest, _Amis et Amiles_ of the second. Of the third, as less
+characteristic in itself and less marked by uniform features, it will be
+sufficient to give some account when we come to the compositions which
+chiefly influenced it, namely the romances of Arthur and of antiquity.
+
+
+Charlemagne has warred seven years in Spain, but king Marsile of
+Saragossa still resists the Christian conqueror. Unable however to meet
+Charlemagne in the field, he sends an embassy with presents and a
+feigned submission, requesting that prince to return to France, whither
+he will follow him and do homage. Roland opposes the reception of these
+offers, Ganelon speaks in their favour, and so does Duke Naimes. Then
+the question is who shall go to Saragossa to settle the terms. Roland
+offers to go himself, but being rejected as too impetuous, suggests
+Ganelon--a suggestion which bitterly annoys that knight and by
+irritating him against Roland sows the seeds of his future treachery.
+Ganelon goes to Marsile, and at first bears himself truthfully and
+gallantly. The heathen king however undermines his faith, and a
+treacherous assault on the French rearguard when Charlemagne shall be
+too far off to succour it is resolved on and planned. Then the traitor
+returns to Charles with hostages and mighty gifts. The return to France
+begins; Roland is stationed to his great wrath in the fatal place, the
+rest of the army marches through the Pyrenees, and meanwhile Marsile
+gathers an enormous host to fall upon the isolated rearguard. There is a
+long catalogue of the felon and miscreant knights and princes that
+follow the Spanish king. The pagan host, travelling by cross paths of
+the mountains, soon reaches and surrounds Roland and the peers. Oliver
+entreats Roland to sound his horn that Charles may hear it and come to
+the rescue, but the eager and inflexible hero refuses. Archbishop Turpin
+blesses the doomed host, and bids them as the price of his absolution
+strike hard. The battle begins and all its incidents are told. The
+French kill thousands, but thousands more succeed. Peer after peer
+falls, and when at last Roland blows the horn it is too late.
+Charlemagne hears it and turns back in an agony of sorrow and haste. But
+long before he reaches Roncevaux Roland has died last of his host, and
+alone, for all the Pagans have fallen or fled before him.
+
+The arrival of Charlemagne, his grief, and his vengeance on the Pagans,
+should perhaps conclude the poem. There is however a sort of afterpiece,
+in which the traitor Ganelon is tried, his fate being decided by a
+single combat between his kinsman Pinabel and a champion named Thierry,
+and is ruthlessly put to death with all his clansmen who have stood
+surety for him. Episodes properly so called the poem has none, though
+the character of Oliver is finely brought out as contrasted with
+Roland's somewhat unreasoning valour, and there is one touching incident
+when the poet tells how the Lady Aude, Oliver's sister and Roland's
+betrothed, falls dead without a word when the king tells her of the
+fatal fight at Roncevaux. The following passage will give an idea of the
+style of this famous poem. It may be noticed that the curious refrain
+_Aoi_ has puzzled all commentators, though in calling it a refrain
+
+Amis and Amiles were two noble knights, born and baptized on the same
+day, who had the Pope for sponsor, and whose comradeship was specially
+sanctioned by a divine message, and by the miraculous likeness which
+existed between them. They were however brought up, the one in Berri,
+the other in Auvergne, and did not meet till both had received
+knighthood. As soon as they had joined company, they resolved to offer
+their services to Charles, and did him great service against rebels.
+Here the action proper begins. The friends arouse the jealousy of
+Hardré, a felon knight, of Ganelon's lineage and likeness. Hardré
+engages Gombaud of Lorraine, an enemy of the Emperor, to attack the two
+friends; but the treason does not succeed, and the traitor, to escape
+unpleasant enquiries, recommends Charles to bestow his own niece Lubias
+on Amiles. The latter declares that Amis deserves her better, and to
+Amis she is married, bearing however no good-will to Amiles for his
+resignation of her and for his firm hold on her husband's affection.
+Meanwhile, the daughter of Charles, Bellicent, conceives a violent
+passion for Amiles, and the traitor Hardré unfortunately becomes aware
+of the matter. He at once accuses Amiles of treason, and the knight is
+too conscious of the dubiousness of his cause to be very willing to
+accept the wager of battle. From this difficulty he is saved by Amis,
+who comes to Paris from his distant seignory of Blaivies (Blaye), and
+fights the battle in the name and armour of his friend, while the latter
+goes to Blaye and plays the part of his preserver. Both ventures are
+made easier by the extraordinary resemblance of the pair. Amis is
+successful; he slays Hardré, and then has no little difficulty in saving
+himself from a forced marriage with Bellicent. This embroglio is
+smoothed out, and Amiles and Bellicent are happily united. The generous
+Amis however has not been able to avoid forswearing himself while
+playing the part of Amiles; and this sin is punished, according to a
+divine warning, by an attack of leprosy. His wife Lubias seizes the
+opportunity, procures a separation from him, and almost starves him, or
+would do so but for two faithful servants and his little son. At last a
+means of cure is revealed to him. If Amiles and Bellicent will allow
+their two sons to be slain the blood will recover Amis of his leprosy.
+The stricken knight journeys painfully to his friend and tells him the
+hard condition. Amiles does not hesitate, and the following passage
+tells his deed:--
+
+      Li cuens Amiles un petit s'atarja,
+    vers les anfans pas por pas en ala,
+    dormans les treuve, moult par les resgarda,
+    s'espee lieve, ocirre les voldra;
+    mais de ferir un petit se tarja.
+    li ainznés freres de l'effroi s'esveilla
+    que li cuens mainne qui en la chambre entra,
+    l'anfes se torne, son pere ravisa,
+    s'espee voit, moult grant paor en a,
+    son pere apelle, si l'en arraisonna:
+    'biax sire peres, por deu qui tout forma,
+    que volez faire? nel me celez vos ja.
+    ainz mais nus peres tel chose ne pensa.'
+    'biaux sire fiuls, ocirre vos voil ja
+    et le tien frere qui delez toi esta;
+    car mes compains Amis qui moult m'ama,
+    dou sanc de vos li siens cors garistra,
+    que gietez est dou siecle.'
+      'Biax tres douz peres,' dist l'anfes erramment,
+    'quant vos compains avra garissement,
+    se de nos sans a sor soi lavement,
+    nos sommes vostre de vostre engenrement,
+    faire en po"ez del tout a vo talent.
+    or nos copez les chiés isnellement;
+    car dex de glorie nos avra en present,
+    en paradis en irommes chantant
+    et proierommes Jhesu cui tout apent
+    que dou pechié vos face tensement,
+    vos et Ami, vostre compaingnon gent;
+    mais nostre mere, la bele Belissant,
+    nos salu"ez por deu omnipotent.'
+    li cuens l'o"it, moult grans pitiés l'en prent
+    que touz pasmez a la terre s'estent.
+    quant se redresce, si reprinst hardement.
+    or orroiz ja merveilles, bonne gent,
+    que tex n'o"istes en tout vostre vivant.
+    li cuens Amiles vint vers le lit esrant,
+    hauce l'espee, li fiuls le col estent.
+    or est merveilles se li cuers ne li ment.
+    la teste cope li peres son anfant,
+    le sanc reciut et cler bacin d'argent:
+    a poi ne chiet a terre.
+
+
+In these numerous poems there is recognisable in the first place a
+distinct family likeness which is common to the earliest and latest, and
+in the second, the natural difference of manners which the lapse of
+three hundred years might be expected to occasion. There is a sameness
+which almost amounts to monotony in the plot of most Chansons de Gestes:
+the hero is almost always either falsely accused of some crime, or else
+treacherously exposed to the attacks of Saracens, or of his own
+countrymen. The agents of this treachery are commonly of the blood of
+the arch-traitor Ganelon, and are almost invariably discomfited by the
+good knight or his friends and avengers. The part[40] which Charlemagne
+plays in these poems is not usually dignified: he is represented as
+easily gulled, capricious, and almost ferocious in temper, ungrateful,
+and ready to accept bribes and gifts. His good angel is always Duke
+Naimes of Bavaria, the Nestor of the Carlovingian epic. In the earliest
+Chansons the part played by women is not so conspicuous as in the later,
+but in all except _Roland_ it has considerable prominence. Sometimes the
+heroine is the wife, daughter, or niece of Charlemagne, sometimes a
+Saracen princess. But in either case she is apt to respond without much
+delay to the hero's advances, which, indeed, she sometimes anticipates.
+The conduct of knights to their ladies is also far from being what we
+now consider chivalrous. Blows are very common, and seem to be taken by
+the weaker sex as matters of course. The prevailing legal forms are
+simple and rather sanguinary. The judgment of God, as shown by ordeal of
+battle, settles all disputes; but battle is not permitted unless several
+nobles of weight and substance come forward as sponsors for each
+champion; and sponsors as well as principal risk their lives in case of
+the principal's defeat, unless they can tempt the king's cupidity. These
+common features are necessarily in the case of so large a number of
+poems mixed with much individual difference, nor are the Chansons by any
+means monotonous reading. Their versification is pleasing to the ear,
+and their language, considering its age, is of surprising strength,
+expressiveness, and even wealth. Though they lack the variety, the
+pathos, the romantic chivalry, and the mystical attractions of the
+Arthurian romances, there is little doubt that they paint, far more
+accurately than their successors, an actually existing state of society,
+that which prevailed in the palmy time of the feudal system, when war
+and religion were deemed the sole subjects worthy to occupy seriously
+men of station and birth. In giving utterance to this warlike and
+religious sentiment, few periods and classes of literature have been
+more strikingly successful. Nowhere is the mere fury of battle better
+rendered than in _Roland_ and _Fierabras_. Nowhere is the valiant
+indignation of the beaten warrior, and, at the same time, his humble
+submission to providence, better given than in _Aliscans_. Nowhere do we
+find the mediaeval spirit of feudal enmity and private war more
+strikingly depicted than in the cycle of the Lorrainers, and in _Raoul
+de Cambrai_. Nowhere is the devout sentiment and belief of the same time
+more fully drawn than in _Amis et Amiles_.
+
+[Sidenote: Authorship.]
+
+The method of composition and publication of these poems was peculiar.
+Ordinarily, though not always, they were composed by the Trouvère, and
+performed by the Jongleur. Sometimes the Trouvère condescended to
+performance, and sometimes the Jongleur aspired to composition, but not
+usually. The poet was commonly a man of priestly or knightly rank, the
+performer (who might be of either sex) was probably of no particular
+station. The Jongleur, or Jongleresse, wandered from castle to castle,
+reciting the poems, and interpolating in them recommendations of the
+quality of the wares, requests to the audience to be silent, and often
+appeals to their generosity. Some of the manuscripts which we now
+possess were originally used by Jongleurs, and it was only in this way
+that the early Chanson de Geste was intended to be read. The process of
+hawking about naturally interfered with the preservation of the poems in
+their original purity, and even with the preservation of the author's
+name. In very few cases[41] is the latter known to us.
+
+The question whether the Chansons de Gestes were originally written in
+northern or southern French has often been hotly debated. The facts are
+these. Only three Chansons exist in Provencal. Two of these[42] are
+admitted translations or imitations of Northern originals. The third,
+_Girartz de Rossilho_, is undoubtedly original, but is written in the
+northernmost dialect of the Southern tongue. The inference appears to be
+clear that the Chanson de Geste is properly a product of northern
+France. The opposite conclusion necessitates the supposition that either
+in the Albigensian war, or by some inexplicable concatenation of
+accidents, a body of original Provencal Chansons has been totally
+destroyed, with all allusions to, and traditions of, these poems. Such a
+hypothesis is evidently unreasonable, and would probably never have been
+started had not some of the earliest students of Old French been
+committed by local feeling to the championship of the language of the
+Troubadours. On the other hand, almost all the dialects of Northern
+French are represented, Norman and Picard being perhaps the
+commonest
+
+Before quitting the subject of the Chansons de Gestes, it may be well to
+give briefly their subsequent literary history. They were at first
+frequently re-edited, the tendency always being to increase their
+length, so that in some cases the latest versions extant run to thirty
+or forty thousand lines. As soon as this limit was reached, they began
+to be turned into prose, the fourteenth and fifteenth centuries being
+the special period of this change. The art of printing came in time to
+assist the spread of these prose versions, and for some centuries they
+were almost the only form in which the Chansons de Gestes, under the
+general title of romances of chivalry, were known. The verse originals
+remained for the most part in manuscript, but the prose romances gained
+an enduring circulation among the peasantry in France. From the
+seventeenth century their vogue was mainly restricted to this class. But
+in the middle of the eighteenth the Comte de Tressan was induced to
+attempt their revival for the _Bibliothèque des Romans_. His versions
+were executed entirely in the spirit of the day, and did not render any
+of the characteristic features of the old Epics. But they drew attention
+to them, and by the end of the century, University Professors began to
+lecture on old French poetry. The exertions of M. Paulin Paris, of M.
+Francisque Michel, and of some German scholars first brought about the
+re-editing of the Chansons in their original form about half a century
+ago; and since that time they have received steady attention, and a
+large number have been published--a number to which additions are yearly
+being made. Rather more than half the known total are now in print.
+
+
+The Romance language, spoken in the country now called France, has two
+great divisions, the Langue d'Oc and the Langue d'Oil[44], which stand
+to one another in hardly more intimate relationship than the first of
+them does to Spanish or Italian. In strictness, the Langue d'Oc ought
+not to be called French at all, inasmuch as those who spoke it applied
+that term exclusively to Northern speech, calling their own Limousin, or
+Provencal, or Auvergnat. At the time, moreover, when Provencal
+literature flourished, the districts which contributed to it were in
+very loose relationship with the kingdom of France; and when that
+relationship was drawn tighter, Provencal literature began to wither and
+die. Yet it is not possible to avoid giving some sketch of the literary
+developments of Southern France in any history of French literature, as
+well because of the connection which subsisted between the two branches,
+as because of the altogether mistaken views which have been not
+unfrequently held as to that connection. Lord Macaulay[45] speaks of
+Provencal in the twelfth century as 'the only one of the vernacular
+languages of Europe which had yet been extensively employed for literary
+purposes;' and the ignorance of their older literature which, until a
+very recent period, distinguished Frenchmen has made it common for
+writers in France to speak of the Troubadours as their own literary
+ancestors. We have already seen that this supposition as applied to Epic
+poetry is entirely false; we shall see hereafter that, except as regards
+some lyrical developments, and those not the most characteristic, it is
+equally ill-grounded as to other kinds of composition. But the
+literature of the South is quite interesting enough in itself without
+borrowing what does not belong to it, and it exhibits not a few
+characteristics which were afterwards blended with those of the
+literature of the kingdom at large.
+

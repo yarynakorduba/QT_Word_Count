@@ -95,7 +95,7 @@ void CountingThread::run() {
 
 int main(int argc, char *argv[])
 {
-   QString base_path = {"/home/yaryna/AKS_main/"};
+   QString base_path = {"../QT_Word_Count-/"};
    QStringList words_lst = reading(base_path + "fl.txt");
 
    if (words_lst.isEmpty()) {

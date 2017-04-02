@@ -13,6 +13,14 @@
 using namespace std;
 
 
+QMap<QString, int> words;
+QString output;
+QMap<QString, int>::iterator it;
+QMutex mutex;
+QWaitCondition bufferNotEmpty;
+QTime time_result;
+
+
 QStringList reading(const QString& filename) {
     QStringList lst;
     QFile inputFile(filename);
@@ -32,55 +40,52 @@ QStringList reading(const QString& filename) {
     return lst;
 }
 
-QList<QStringList> lst_division(QStringList& data_lst, int threads) {
-    QList<QStringList> general;
+QList<int> lst_division(QStringList& data_lst, int threads) {
+    QList<int> general;
     int pointer = 0;
-    int temp = 0;
     int division = std::ceil((float)data_lst.size()/threads);
-    while (pointer < data_lst.size()) {
-        QStringList tmp = {};
-        for (int el=pointer; el < pointer+division; el++) {
-            if (el < data_lst.size()) {
-            tmp.append(data_lst[el]);
+        while (pointer+division < data_lst.size()) {
 
-        }
+            general.append(pointer);
+            general.append(pointer+division);
+
+            pointer += division + 1;
         }
 
-        general.append(tmp);
-        pointer += division;
-    }
+        if (pointer != data_lst.size()-1) {
+            general.append(pointer);
+            general.append(data_lst.size()-1);
+        }
+
 
     return general;
 }
 
 
-
-QMap<QString, int> words;
-QString output;
-QMap<QString, int>::iterator it;
-QMutex mutex;
-QWaitCondition bufferNotEmpty;
-QTime time_result;
-
 class CountingThread : public QThread {
 
     public:
-        CountingThread(const QStringList& data_lst);
+        CountingThread(const QStringList& data_lst, const int& num_start, const int& num_fin);
         void run();
 
     protected:
         const QStringList& data;
+        const int& start;
+        const int& finish;
+
 
 
  };
 
 
-CountingThread::CountingThread(const QStringList& data_lst): data (data_lst) {
+CountingThread::CountingThread(const QStringList& data_lst,\
+                               const int& num_start, const int& num_fin):
+    data (data_lst), start (num_start), finish(num_fin){
 }
 
 
 void CountingThread::run() {
-    for (int a=0; a<data.size(); a++) {
+    for (int a=start; a<=finish; a++) {
         mutex.lock();
             ++words[data[a]];
         mutex.unlock();
@@ -92,7 +97,6 @@ int main(int argc, char *argv[])
 {
    QString base_path = {"/home/yaryna/AKS_main/"};
    QStringList words_lst = reading(base_path + "fl.txt");
-   //cout << words_lst.size();
 
    if (words_lst.isEmpty()) {
        cerr << "No data in the file"<< endl;
@@ -101,11 +105,19 @@ int main(int argc, char *argv[])
 
    cout << "PROGRAM DESCRIPTION" << endl;
    cout << "TOTAL QUANTITY OF WORDS: " << words_lst.size() << endl;
-   QList<QStringList> lst = lst_division(words_lst, 3);
+   int num_threads = 5;
+   QList<int> num_lst = lst_division(words_lst, num_threads);
    QList<CountingThread*> thread_lst;
-   for (int el=0; el<lst.size(); el++) {
-               thread_lst.append(new CountingThread(lst[el]));
+   int num_pointer = 0;
+   for (int el=0; el<num_threads; el++) {
+     //  cout <<num_lst[num_pointer] << "AND" << num_lst[num_pointer+1]<< " ";
+               thread_lst.append(new CountingThread(\
+                                     words_lst, num_lst[num_pointer], num_lst[num_pointer+1]));
+               num_pointer += 2;
    }
+
+
+
 
    time_result.start();
 

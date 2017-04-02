@@ -95,18 +95,33 @@ void CountingThread::run() {
 
 int main(int argc, char *argv[])
 {
-   QString base_path = {"../QT_Word_Count-/"};
-   QStringList words_lst = reading(base_path + "fl.txt");
+   // ----------------------------------------------
+   // Зробіть тут читання із файлу конфігурації, а краще -- з командного рядка
+   int num_threads = 5;
 
+   QString base_path   {"../QT_Word_Count-/"};
+   QString out_filename{base_path + QString("result_%1.txt").
+                                        arg(num_threads, 2, 10, QChar('0'))};
+   QString in_filename {base_path + "fl.txt"};
+   // ----------------------------------------------
+
+   QStringList words_lst = reading(in_filename);
    if (words_lst.isEmpty()) {
        cerr << "No data in the file"<< endl;
        return -1;
    }
+   QList<int> num_lst = lst_division(words_lst, num_threads);
 
    cout << "PROGRAM DESCRIPTION" << endl;
    cout << "TOTAL QUANTITY OF WORDS: " << words_lst.size() << endl;
-   int num_threads = 5;
-   QList<int> num_lst = lst_division(words_lst, num_threads);
+   cout << "Threads: " << num_threads << endl;
+   cout << "Parts: ";
+   for(int i = 0; i< num_lst.size(); ++i)
+   {
+       cout << num_lst[i] << ", ";
+   }
+   cout << endl;
+
    QList<CountingThread*> thread_lst;
    int num_pointer = 0;
    for (int el=0; el<num_threads; el++) {
@@ -115,8 +130,6 @@ int main(int argc, char *argv[])
                                      words_lst, num_lst[num_pointer], num_lst[num_pointer+1]));
                num_pointer += 2;
    }
-
-
 
 
    time_result.start();
@@ -137,8 +150,9 @@ int main(int argc, char *argv[])
        delete x;
 
    int time_res = time_result.elapsed();
+
    cout << "TOTAL TIME: " << time_res << " ms " << endl;
-   QFile output_file(base_path+"result.txt");
+   QFile output_file(base_path+out_filename);
    if (!output_file.open(QIODevice::WriteOnly)) {
        cerr << "Coulnt write ti file with result" << endl;
        return -1;

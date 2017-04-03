@@ -5,3 +5,6 @@ CONFIG -= app_bundle
 CONFIG += c++11
 
 SOURCES += main.cpp
+
+HEADERS += \
+    timing_v1.hpp

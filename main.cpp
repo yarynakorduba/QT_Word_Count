@@ -9,6 +9,7 @@
 #include <QMutex>
 #include <QWaitCondition>
 #include <QTime>
+#include "timing_v1.hpp"
 
 using namespace std;
 
@@ -18,7 +19,6 @@ QString output;
 QMap<QString, int>::iterator it;
 QMutex mutex;
 QWaitCondition bufferNotEmpty;
-QTime time_result;
 
 
 QStringList reading(const QString& filename) {
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
 {
    // ----------------------------------------------
    // Зробіть тут читання із файлу конфігурації, а краще -- з командного рядка
-   int num_threads = 5;
+   int num_threads = 2;
 
    QString base_path   {"../QT_Word_Count-/"};
    QString out_filename{base_path + QString("result_%1.txt").
@@ -132,26 +132,31 @@ int main(int argc, char *argv[])
    }
 
 
-   time_result.start();
+   //---------------------------------------------------------------
+   // Це все ще не дуже хороший спосіб виміру! Потім мусимо переключитися
+   // на Performance counters, але це буде потім, а так -- краще, ніж QTimer.
+   // Performance counters -- див. PAPI тут:
+   // Архітектура комп'ютерних систем (CS.02.17) --> Практична 2. Розпаралелення задач із явним використанням потоків ОС --> Вимірювання часу
+   // (Пряме посилання не даю, з міркувань безпеки).
+   auto indexing_start_time = get_current_time_fenced();
 
    for (auto thread: thread_lst) {
-
        thread->run();
    }
 
-  for (auto thread: thread_lst){
+   for (auto thread: thread_lst){
 
-   thread->wait();}
+        thread->wait();
+   }
 
-
+   auto indexing_done_time = get_current_time_fenced();
 
    //---------------------------------------------------------------
    for(auto x: thread_lst)
        delete x;
 
-   int time_res = time_result.elapsed();
-
-   cout << "TOTAL TIME: " << time_res << " ms " << endl;
+   double time_res = to_us(indexing_done_time - indexing_start_time);
+   cout << "INDEXING TIME: " << time_res << " us " << endl;
    QFile output_file(base_path+out_filename);
    if (!output_file.open(QIODevice::WriteOnly)) {
        cerr << "Coulnt write ti file with result" << endl;

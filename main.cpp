@@ -65,13 +65,13 @@ QList<int> lst_division(QStringList& data_lst, int threads) {
 class CountingThread : public QThread {
 
     public:
-        CountingThread(const QStringList& data_lst, const int& num_start, const int& num_fin);
+        CountingThread(const QStringList& data_lst, int num_start_i, int num_fin_i);
         void run();
 
     protected:
         const QStringList& data;
-        const int& start;
-        const int& finish;
+        const int num_start; // Нагадайте -- анекдот розкажу, про "справжній посередині, повертаю"
+        const int num_fin;   // Крім того, start -- то такий метод QThread, а Ви його...
 
 
 
@@ -79,15 +79,16 @@ class CountingThread : public QThread {
 
 
 CountingThread::CountingThread(const QStringList& data_lst,\
-                               const int& num_start, const int& num_fin):
-    data (data_lst), start (num_start), finish(num_fin){
+                               int num_start_i, int num_fin_i):
+    data (data_lst), num_start (num_start_i), num_fin(num_fin_i)
+{
 }
 
 
 void CountingThread::run() {
-    for (int a=start; a<=finish; a++) {
+    for (int a=num_start; a<=num_fin; a++) {
         mutex.lock();
-            ++words[data[a]];
+        ++words[data[a]];
         mutex.unlock();
     }
 
@@ -122,6 +123,8 @@ int main(int argc, char *argv[])
    }
    cout << endl;
 
+   auto creating_threads_start_time = get_current_time_fenced();
+
    QList<CountingThread*> thread_lst;
    int num_pointer = 0;
    for (int el=0; el<num_threads; el++) {
@@ -141,7 +144,15 @@ int main(int argc, char *argv[])
    auto indexing_start_time = get_current_time_fenced();
 
    for (auto thread: thread_lst) {
-       thread->run();
+       if(num_threads>1)
+       {
+           thread->start(); // thread->run(); STARTS CODE IN THIS THREAD! Use start to run code in other thread.
+       }else{
+           thread->run(); // Do not use threads at all.
+       }
+
+
+
    }
 
    for (auto thread: thread_lst){
@@ -155,8 +166,10 @@ int main(int argc, char *argv[])
    for(auto x: thread_lst)
        delete x;
 
-   double time_res = to_us(indexing_done_time - indexing_start_time);
+   auto time_res = to_us(indexing_done_time - indexing_start_time);
+   auto creating_threads_time = to_us(indexing_start_time - creating_threads_start_time);
    cout << "INDEXING TIME: " << time_res << " us " << endl;
+   cout << "THREADS CREATING TIME: " << creating_threads_time << " us " << endl;
    QFile output_file(base_path+out_filename);
    if (!output_file.open(QIODevice::WriteOnly)) {
        cerr << "Coulnt write ti file with result" << endl;

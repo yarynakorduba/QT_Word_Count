@@ -87,9 +87,8 @@ CountingThread::CountingThread(const QStringList& data_lst,\
 
 void CountingThread::run() {
     for (int a=num_start; a<=num_fin; a++) {
-        mutex.lock();
+        QMutexLocker locker(&mutex);
         ++words[data[a]];
-        mutex.unlock();
     }
 
 }
@@ -180,7 +179,7 @@ int main(int argc, char *argv[])
    int total_words = 0;
    for (auto it = words.begin(); it != words.end(); ++it) {
        // Format output here.
-       output += QString("%1 : %2").arg(it.key()).arg(it.value()) + " |, ";
+       output += QString("%1 : %2").arg(it.key()).arg(it.value()) + '\n';
        total_words += it.value();
    }
 

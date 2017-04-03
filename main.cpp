@@ -13,10 +13,10 @@
 
 using namespace std;
 
-
-QMap<QString, int> words;
+using words_counter_t = QMap<QString, int>;
+words_counter_t words;
 QString output;
-QMap<QString, int>::iterator it;
+words_counter_t::iterator it;
 QMutex mutex;
 QWaitCondition bufferNotEmpty;
 
@@ -84,20 +84,33 @@ CountingThread::CountingThread(const QStringList& data_lst,\
 {
 }
 
-
+// #define USE_STUPID_PARALLELIZATION
+#ifdef USE_STUPID_PARALLELIZATION
 void CountingThread::run() {
     for (int a=num_start; a<=num_fin; a++) {
         QMutexLocker locker(&mutex);
         ++words[data[a]];
     }
-
 }
+#else
+void CountingThread::run() {
+    words_counter_t local_dictionary;
+    for (int a=num_start; a<=num_fin; a++) {
+        ++local_dictionary[data[a]];
+    }
+    QMutexLocker locker(&mutex);
+    for(auto itr=local_dictionary.cbegin(); itr!=local_dictionary.cend(); ++itr)
+    {
+        words[itr.key()]+=itr.value();
+    }
+}
+#endif
 
 int main(int argc, char *argv[])
 {
    // ----------------------------------------------
    // Зробіть тут читання із файлу конфігурації, а краще -- з командного рядка
-   int num_threads = 2;
+   int num_threads = 4;
 
    QString base_path   {"../QT_Word_Count-/"};
    QString out_filename{base_path + QString("result_%1.txt").

@@ -176,26 +176,27 @@ int main(int argc, char *argv[])
    for(auto x: thread_lst)
        delete x;
 
-   auto time_res = to_us(indexing_done_time - indexing_start_time);
-   auto creating_threads_time = to_us(indexing_start_time - creating_threads_start_time);
-   cout << "INDEXING TIME: " << time_res << " us " << endl;
-   cout << "THREADS CREATING TIME: " << creating_threads_time << " us " << endl;
-   QFile output_file(base_path+out_filename);
-   if (!output_file.open(QIODevice::WriteOnly)) {
-       cerr << "Coulnt write ti file with result" << endl;
-       return -1;
-   }
-
    int total_words = 0;
    for(auto it = words.begin(); it != words.end(); ++it) {
        total_words += it.value();
    }
+
+   auto time_res = to_us(indexing_done_time - indexing_start_time);
+   auto creating_threads_time = to_us(indexing_start_time - creating_threads_start_time);
+   cout << "INDEXING TIME: " << time_res << " us " << endl;
+   cout << "THREADS CREATING TIME: " << creating_threads_time << " us " << endl;
+
    if( words_lst.size() != total_words )
    {
        cerr << "Something wrong -- words count before and after indexing, differs!" << endl;
    }
-
    //---------------------------------------------------------------
+   QFile output_file(base_path+out_filename);
+   if (!output_file.open(QIODevice::WriteOnly)) {
+       cerr << "Could not write file with results." << endl;
+       return -1;
+   }
+
    QTextStream output_stream(&output_file);
    if( words_lst.size() != total_words )
    {

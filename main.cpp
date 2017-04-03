@@ -15,8 +15,6 @@ using namespace std;
 
 using words_counter_t = QMap<QString, int>;
 words_counter_t words;
-QString output;
-words_counter_t::iterator it;
 QMutex mutex;
 QWaitCondition bufferNotEmpty;
 
@@ -190,6 +188,7 @@ int main(int argc, char *argv[])
 
    QTextStream output_stream(&output_file);
    int total_words = 0;
+   QString output;
    for (auto it = words.begin(); it != words.end(); ++it) {
        // Format output here.
        output += QString("%1 : %2").arg(it.key()).arg(it.value()) + '\n';

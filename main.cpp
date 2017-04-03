@@ -186,19 +186,28 @@ int main(int argc, char *argv[])
        return -1;
    }
 
-   QTextStream output_stream(&output_file);
    int total_words = 0;
-   QString output;
-   for (auto it = words.begin(); it != words.end(); ++it) {
-       // Format output here.
-       output += QString("%1 : %2").arg(it.key()).arg(it.value()) + '\n';
+   for(auto it = words.begin(); it != words.end(); ++it) {
        total_words += it.value();
    }
+   if( words_lst.size() != total_words )
+   {
+       cerr << "Something wrong -- words count before and after indexing, differs!" << endl;
+   }
 
- output_stream << "Total words: " << total_words << endl;
- output_stream << "Total time: " << time_res << endl;
- output_stream << output;
- output_file.close();
+   //---------------------------------------------------------------
+   QTextStream output_stream(&output_file);
+   if( words_lst.size() != total_words )
+   {
+       output_stream << "Something wrong -- words count before and after indexing, differs!" << endl;
+   }
+   output_stream << "Total words: " << total_words << endl;
+   output_stream << "Total time: " << time_res << endl;
+   for (auto it = words.begin(); it != words.end(); ++it) {
+       // Format output here.
+       output_stream << QString("%1 : %2 \n").arg(it.key(), 10).arg(it.value(), 10);
+   }
+   output_file.close();
 
 }
 
